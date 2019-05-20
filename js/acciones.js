@@ -8,13 +8,13 @@ $(document).ready(function (e){
 		function onDeviceReady(){
 		
 		$('#posicion').on('click',function(){
-		getPósition();
+		getPosition();
 		});
 		}
 		
 		function getPosition(){
 		  var options={
-			  enabledHighAccuracy  :true,
+			  enableHighAccuracy  :true,
 			maximumAge:3600000
 		}
 		
